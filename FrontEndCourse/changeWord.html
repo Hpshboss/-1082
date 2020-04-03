@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            hello, word
+        </title>
+        <script>
+            function helloName() {
+                let name = document.querySelector('#name').value;
+                document.querySelector('#newName').innerHTML = "hello, " + name;
+            }
+        </script>
+    </head>
+    <body>	
+        <input type="text" id="name">
+        <button onclick="helloName()">change name</button>
+        <div id="newName">hello, body</div>
+    </body>
+</html>
